@@ -1,0 +1,1288 @@
+{
+  "title": "পুকুরের সোনালি রুই",
+  "kind": "fiction",
+  "sources": [],
+  "voice": {
+    "name": "Kore",
+    "model": "gemini-3.8-flash-tts",
+    "style": "Read this Bengali text aloud as a warm, expressive storyteller. Speak clearly, at a natural, unhurried pace, with a little drama on the surprises."
+  },
+  "lead": 0.5,
+  "gap": 0.32,
+  "outro": 1.2,
+  "music": "bed",
+  "cast": {
+    "rahim": {
+      "name": "রহিম",
+      "sex": "m",
+      "age": "child",
+      "h": 1,
+      "skin": "#8A5A3C",
+      "hair": "#120C0A",
+      "top": "#2E7DD7",
+      "bottom": "#3B3F4F",
+      "hairStyle": "short",
+      "gamcha": [
+        "#C0392B",
+        "#F4E9D8"
+      ],
+      "legs": "#8A5A3C"
+    },
+    "dadu": {
+      "name": "দাদু",
+      "sex": "m",
+      "age": "elder",
+      "h": 0.97,
+      "skin": "#6B4128",
+      "hair": "#D9D9D9",
+      "top": "#F5F1E8",
+      "bottom": "#F5F1E8",
+      "hairStyle": "short",
+      "beard": "#D9D9D9",
+      "topi": "#FFFFFF",
+      "glasses": true,
+      "lungi": [
+        "#2F6B4F",
+        "#E8D9A8"
+      ]
+    },
+    "maa": {
+      "name": "মা",
+      "sex": "f",
+      "age": "adult",
+      "h": 0.98,
+      "skin": "#A96D4B",
+      "hair": "#150E0B",
+      "top": "#B3261E",
+      "bottom": "#B3261E",
+      "hairStyle": "bun",
+      "saree": [
+        "#B3261E",
+        "#F2D7A3"
+      ]
+    },
+    "bablu": {
+      "name": "বাবলু",
+      "sex": "m",
+      "age": "child",
+      "h": 0.85,
+      "skin": "#7A4D32",
+      "hair": "#120C0A",
+      "top": "#F7C948",
+      "bottom": "#E0E4EA",
+      "hairStyle": "short",
+      "legs": "#7A4D32"
+    },
+    "sonali": {
+      "name": "সোনালি",
+      "sex": "f",
+      "age": "child",
+      "h": 1,
+      "skin": "#B07A55",
+      "hair": "#1A110C",
+      "top": "#2BAE66",
+      "bottom": "#2BAE66",
+      "hairStyle": "long",
+      "ribbon": "#D62839",
+      "dress": true
+    },
+    "mijan": {
+      "name": "মিজান চাচা",
+      "sex": "m",
+      "age": "adult",
+      "h": 1.02,
+      "skin": "#4B2E1E",
+      "hair": "#0E0A08",
+      "top": "#4E8F78",
+      "bottom": "#2D3E6B",
+      "hairStyle": "short",
+      "mustache": true,
+      "lungi": [
+        "#2D3E6B",
+        "#B6C8E8"
+      ],
+      "gamcha": [
+        "#E8542C",
+        "#FFF4E0"
+      ]
+    }
+  },
+  "lines": [
+    {
+      "text": "এক গ্রামে ছিল রহিম নামে একটা ছোট ছেলে।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -6,
+            6
+          ],
+          "to": [
+            -1.5,
+            3.2
+          ]
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "from": {
+          "d": 11,
+          "yaw": -35,
+          "h": 2.5,
+          "fov": 40
+        },
+        "to": {
+          "d": 9.5,
+          "yaw": -20,
+          "h": 2.4,
+          "fov": 40
+        },
+        "look": 1.1
+      }
+    },
+    {
+      "text": "তাদের বাড়ির পাশে ছিল একটা বড় পুকুর।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.8,
+          1,
+          1.5
+        ],
+        "from": {
+          "d": 13,
+          "yaw": 15,
+          "h": 3.5,
+          "fov": 40
+        },
+        "to": {
+          "d": 12,
+          "yaw": 22,
+          "h": 3.6,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "রহিম প্রতিদিন বিকেলে সেখানে ছিপ নিয়ে মাছ ধরতে যেত।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "cast",
+          "hold": "rod"
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 5,
+          "yaw": -30,
+          "h": 1.6
+        },
+        "to": {
+          "d": 4.6,
+          "yaw": -22,
+          "h": 1.7
+        }
+      }
+    },
+    {
+      "text": "কিন্তু সারাদিন বসে থেকেও তার ছিপে একটাও মাছ ধরা পড়ত না।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "cast",
+          "hold": "rod",
+          "mood": "sad"
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.6,
+          "yaw": -22,
+          "h": 1.6
+        },
+        "to": {
+          "d": 4.6,
+          "yaw": -14,
+          "h": 1.6
+        }
+      }
+    },
+    {
+      "text": "একদিন দাদু এসে তার পাশে বসলেন।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            6,
+            6
+          ],
+          "to": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "cast",
+          "hold": "rod"
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.6,
+          1,
+          2.2
+        ],
+        "from": {
+          "d": 14,
+          "yaw": 35,
+          "h": 3.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 13,
+          "yaw": 20,
+          "h": 3.0,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "দাদু বললেন, মাছ ধরতে হয় ধৈর্য দিয়ে, তাড়াহুড়ো করে নয়।",
+      "set": "village_pond",
+      "speaker": "dadu",
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            -1.5,
+            3.2
+          ],
+          "act": "talk"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "cast",
+          "hold": "rod"
+        }
+      ],
+      "cam": {
+        "target": "dadu",
+        "look": 1.2,
+        "from": {
+          "d": 4.5,
+          "yaw": -60,
+          "h": 1.6
+        },
+        "to": {
+          "d": 4.2,
+          "yaw": -45,
+          "h": 1.7
+        }
+      }
+    },
+    {
+      "text": "রহিম মাথা নেড়ে বলল, আচ্ছা দাদু।",
+      "set": "village_pond",
+      "speaker": "rahim",
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            -1.5,
+            3.2
+          ],
+          "act": "idle"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            -0.8,
+            4.2
+          ],
+          "act": "talk",
+          "nod": true
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "from": {
+          "d": 4.5,
+          "yaw": 60,
+          "h": 1.6,
+          "fov": 34
+        },
+        "to": {
+          "d": 4.2,
+          "yaw": 50,
+          "h": 1.7,
+          "fov": 34
+        },
+        "look": 1.2
+      }
+    },
+    {
+      "text": "তারপর রহিম চুপচাপ বসে রইল, চোখ রাখল ফাতনার দিকে।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "sit",
+          "sit": true
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "cast",
+          "hold": "rod",
+          "line": true
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.5,
+          1,
+          1
+        ],
+        "from": {
+          "d": 8,
+          "yaw": -40,
+          "h": 3.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 8,
+          "yaw": -30,
+          "h": 3.0,
+          "fov": 40
+        },
+        "look": 0.9,
+        "aperture": 0.002
+      }
+    },
+    {
+      "text": "হঠাৎ ফাতনাটা ডুবে গেল!",
+      "set": "village_pond",
+      "sfx": [
+        [
+          "plop",
+          0.1
+        ]
+      ],
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "sit",
+          "sit": true
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "shock",
+          "hold": "rod",
+          "line": true
+        }
+      ],
+      "cam": {
+        "target": [
+          1.4,
+          0.2,
+          -1.3
+        ],
+        "look": 0.2,
+        "from": {
+          "d": 3.6,
+          "yaw": -40,
+          "h": 1.6,
+          "fov": 30
+        },
+        "to": {
+          "d": 3.2,
+          "yaw": -30,
+          "h": 1.4,
+          "fov": 30
+        },
+        "aperture": 0.004
+      }
+    },
+    {
+      "text": "রহিম ধীরে ধীরে সুতো টানল।",
+      "set": "village_pond",
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "sit",
+          "sit": true
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "pull",
+          "hold": "rod",
+          "line": true
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.2,
+          "yaw": -30,
+          "h": 1.5
+        },
+        "to": {
+          "d": 4.0,
+          "yaw": -10,
+          "h": 1.6
+        }
+      }
+    },
+    {
+      "text": "জলের ভেতর থেকে লাফিয়ে উঠল একটা সোনালি রুই মাছ!",
+      "set": "village_pond",
+      "sfx": [
+        [
+          "splash",
+          0.6
+        ]
+      ],
+      "fx": [
+        {
+          "kind": "fish",
+          "from": [
+            1.4,
+            0.15,
+            -1.3
+          ],
+          "to": [
+            -0.6,
+            1.6,
+            1.8
+          ],
+          "h": 1.2,
+          "t0": 0.5,
+          "t1": 2.4
+        }
+      ],
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "sit",
+          "sit": true
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "pull",
+          "hold": "rod",
+          "line": true,
+          "mood": "shock"
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.2,
+          1,
+          1
+        ],
+        "from": {
+          "d": 11,
+          "yaw": -20,
+          "h": 3.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 11,
+          "yaw": 10,
+          "h": 3.0,
+          "fov": 40
+        },
+        "aperture": 0.001
+      }
+    },
+    {
+      "text": "মাছটা ঝাপটা দিয়ে আবার ছিটকে পড়ার চেষ্টা করল।",
+      "set": "village_pond",
+      "sfx": [
+        [
+          "splash",
+          0.3
+        ]
+      ],
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "sit",
+          "sit": true
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "pull",
+          "hold": "rod",
+          "line": true
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.0,
+          "yaw": -10,
+          "h": 1.6
+        },
+        "to": {
+          "d": 4.4,
+          "yaw": 0,
+          "h": 1.7
+        }
+      }
+    },
+    {
+      "text": "দাদু জাল নিয়ে এগিয়ে এলেন, আর এক টানে মাছটা তুলে ফেললেন।",
+      "set": "village_pond",
+      "sfx": [
+        [
+          "pop",
+          0.8
+        ]
+      ],
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.8,
+            4.2
+          ],
+          "to": [
+            -0.9,
+            2.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "hold": "basket",
+          "act": "walk"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "pull",
+          "hold": "rod",
+          "line": true
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.5,
+          1,
+          2.5
+        ],
+        "from": {
+          "d": 9,
+          "yaw": 30,
+          "h": 2.4,
+          "fov": 34
+        },
+        "to": {
+          "d": 8,
+          "yaw": 22,
+          "h": 2.4,
+          "fov": 34
+        }
+      }
+    },
+    {
+      "text": "রহিম খুশিতে লাফিয়ে উঠল।",
+      "set": "village_pond",
+      "sfx": [
+        [
+          "ting",
+          0.1
+        ]
+      ],
+      "cast": [
+        {
+          "id": "dadu",
+          "at": [
+            -0.9,
+            2.2
+          ],
+          "face": [
+            -1.5,
+            3.2
+          ],
+          "act": "idle",
+          "hold": "basket"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "jump",
+          "hold": "rod"
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.2,
+          "yaw": -20,
+          "h": 1.4
+        },
+        "to": {
+          "d": 4.0,
+          "yaw": -5,
+          "h": 1.5
+        }
+      }
+    },
+    {
+      "text": "বাবলু দৌড়ে এসে বলল, দাদা, কত বড় মাছ!",
+      "set": "village_pond",
+      "speaker": "bablu",
+      "cast": [
+        {
+          "id": "bablu",
+          "at": [
+            1.6,
+            3.2
+          ],
+          "face": [
+            -1.5,
+            3.2
+          ],
+          "act": "talk"
+        },
+        {
+          "id": "dadu",
+          "at": [
+            -0.9,
+            2.2
+          ],
+          "face": [
+            -1.5,
+            3.2
+          ],
+          "act": "idle",
+          "hold": "basket"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.5,
+            3.2
+          ],
+          "face": [
+            1.6,
+            3.2
+          ],
+          "act": "wave"
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.4,
+          1,
+          2.6
+        ],
+        "from": {
+          "d": 11,
+          "yaw": -10,
+          "h": 2.4,
+          "fov": 40
+        },
+        "to": {
+          "d": 10.5,
+          "yaw": 0,
+          "h": 2.6,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "সন্ধ্যায় সবাই মাছটা নিয়ে বাড়ির পথ ধরল।",
+      "set": "village_road",
+      "amb": "village",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -1.2,
+            4
+          ],
+          "to": [
+            -1.2,
+            -6
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "hold": "basket",
+          "act": "walk"
+        },
+        {
+          "id": "dadu",
+          "at": [
+            0.8,
+            5
+          ],
+          "to": [
+            0.8,
+            -4
+          ],
+          "act": "walk"
+        },
+        {
+          "id": "bablu",
+          "at": [
+            -2.4,
+            6
+          ],
+          "to": [
+            -2.4,
+            -2
+          ],
+          "act": "walk"
+        }
+      ],
+      "cam": {
+        "target": [
+          0,
+          1,
+          -2
+        ],
+        "from": {
+          "d": 16,
+          "yaw": -4,
+          "h": 2.4,
+          "fov": 40
+        },
+        "to": {
+          "d": 15,
+          "yaw": 4,
+          "h": 2.1,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "মা উঠোনে দাঁড়িয়ে অপেক্ষা করছিলেন।",
+      "set": "village_yard",
+      "cast": [
+        {
+          "id": "maa",
+          "at": [
+            1.5,
+            0.5
+          ],
+          "face": "cam",
+          "act": "idle"
+        },
+        {
+          "id": "sonali",
+          "at": [
+            -2,
+            1.5
+          ],
+          "face": "cam",
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": [
+          -0.3,
+          1,
+          0.6
+        ],
+        "from": {
+          "d": 11,
+          "yaw": -25,
+          "h": 2.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 10.5,
+          "yaw": -18,
+          "h": 2.0,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "রহিম গর্ব করে বলল, মা, দেখো, আমি মাছ পেয়েছি!",
+      "set": "village_yard",
+      "speaker": "rahim",
+      "cast": [
+        {
+          "id": "maa",
+          "at": [
+            1.5,
+            0.5
+          ],
+          "face": [
+            -1.2,
+            2.8
+          ],
+          "act": "idle"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.2,
+            2.8
+          ],
+          "face": [
+            1.5,
+            0.5
+          ],
+          "act": "proud",
+          "hold": "basket"
+        },
+        {
+          "id": "sonali",
+          "at": [
+            -2,
+            1.5
+          ],
+          "face": [
+            -1.2,
+            2.8
+          ],
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.2,
+          "yaw": 20,
+          "h": 1.6
+        },
+        "to": {
+          "d": 4.0,
+          "yaw": 12,
+          "h": 1.6
+        }
+      }
+    },
+    {
+      "text": "মা হেসে বললেন, তোর ধৈর্যই আজ তোকে জিতিয়েছে।",
+      "set": "village_yard",
+      "speaker": "maa",
+      "cast": [
+        {
+          "id": "maa",
+          "at": [
+            1.5,
+            0.5
+          ],
+          "face": [
+            -1.2,
+            2.8
+          ],
+          "act": "talk",
+          "mood": "happy"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.2,
+            2.8
+          ],
+          "face": [
+            1.5,
+            0.5
+          ],
+          "act": "proud",
+          "hold": "basket"
+        },
+        {
+          "id": "sonali",
+          "at": [
+            -2,
+            1.5
+          ],
+          "face": [
+            1.5,
+            0.5
+          ],
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": "maa",
+        "from": {
+          "d": 4.6,
+          "yaw": -30,
+          "h": 1.7,
+          "fov": 36
+        },
+        "to": {
+          "d": 4.4,
+          "yaw": -18,
+          "h": 1.7,
+          "fov": 36
+        },
+        "look": 1.2
+      }
+    },
+    {
+      "text": "সোনালি তালি দিয়ে খিলখিল করে হেসে উঠল।",
+      "set": "village_yard",
+      "cast": [
+        {
+          "id": "maa",
+          "at": [
+            1.5,
+            0.5
+          ],
+          "face": "cam",
+          "act": "idle"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -1.2,
+            2.8
+          ],
+          "face": [
+            1.5,
+            0.5
+          ],
+          "act": "proud",
+          "hold": "basket"
+        },
+        {
+          "id": "sonali",
+          "at": [
+            -2,
+            1.5
+          ],
+          "face": "cam",
+          "act": "cheer"
+        }
+      ],
+      "cam": {
+        "target": [
+          0,
+          1,
+          0.5
+        ],
+        "from": {
+          "d": 12,
+          "yaw": 0,
+          "h": 2.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 11.5,
+          "yaw": 8,
+          "h": 2.0,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "পরের দিন রহিম শহরে গেল মামার বাড়িতে।",
+      "set": "city_street",
+      "amb": "city",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -9,
+            -18
+          ],
+          "to": [
+            -9,
+            -6
+          ],
+          "face": [
+            0,
+            0
+          ],
+          "act": "walk"
+        },
+        {
+          "id": "mijan",
+          "at": [
+            -3.0,
+            1.6
+          ],
+          "face": [
+            -9,
+            -6
+          ],
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": [
+          -6,
+          1,
+          -12
+        ],
+        "from": {
+          "d": 16,
+          "yaw": -8,
+          "h": 3.0,
+          "fov": 40
+        },
+        "to": {
+          "d": 14,
+          "yaw": -4,
+          "h": 3.0,
+          "fov": 40
+        }
+      }
+    },
+    {
+      "text": "সেখানে রিকশাওয়ালা মিজান চাচা তাকে বাজারের রাস্তা দেখালেন।",
+      "set": "city_street",
+      "amb": "city",
+      "speaker": "mijan",
+      "cast": [
+        {
+          "id": "mijan",
+          "at": [
+            -3.0,
+            1.6
+          ],
+          "face": [
+            -9,
+            -6
+          ],
+          "act": "talk",
+          "hold": "stick"
+        },
+        {
+          "id": "rahim",
+          "at": [
+            -8.5,
+            -6
+          ],
+          "face": [
+            -3.2,
+            2.5
+          ],
+          "act": "idle"
+        }
+      ],
+      "cam": {
+        "target": [
+          -3,
+          1.2,
+          1.6
+        ],
+        "look": 1.1,
+        "from": {
+          "d": 4.5,
+          "yaw": 50,
+          "h": 1.6,
+          "fov": 36
+        },
+        "to": {
+          "d": 4.2,
+          "yaw": 40,
+          "h": 1.6,
+          "fov": 36
+        }
+      }
+    },
+    {
+      "text": "শেষে রহিম বুঝল, সব ভালো জিনিস পেতে একটু সময় লাগে।",
+      "set": "village_road",
+      "speaker": "rahim",
+      "cast": [
+        {
+          "id": "rahim",
+          "at": [
+            -0.8,
+            0
+          ],
+          "face": "cam",
+          "act": "talk",
+          "mood": "happy"
+        }
+      ],
+      "cam": {
+        "target": "rahim",
+        "look": 1.2,
+        "from": {
+          "d": 4.2,
+          "yaw": 0,
+          "h": 1.6
+        },
+        "to": {
+          "d": 3.8,
+          "yaw": 10,
+          "h": 1.6
+        }
+      }
+    }
+  ]
+}
